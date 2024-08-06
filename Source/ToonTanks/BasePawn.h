@@ -16,9 +16,7 @@ public:
 	ABasePawn();
 
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+
 
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
